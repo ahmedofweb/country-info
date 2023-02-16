@@ -57,8 +57,10 @@ body{
     width: 100%;
     max-width: 500px;
     justify-content: end;
+    border: 1px solid #000;
 }
 .search-input{
+    width: 100%;
     border: 0;
     outline: none;
     background-color: inherit;
