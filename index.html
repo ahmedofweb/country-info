@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./styles/normalize.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link
+            rel="shortcut icon"
+            href="./img/site-icon.svg"
+            type="image/x-icon"
+        />
+        <title>Countries Api</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header-container">
+                <h2 class="site-title">Where in the world?</h2>
+                <div class="search">
+                    <input class="search-input"
+                    id="inputSearch" 
+                    placeholder="search country..."
+                    type="text" >
+                    <img class="img-search" src="./img/search.svg" alt="search" width="25" height="25">
+                </div>
+                <button id="dark-mode" class="dark-mode-btn">
+                    <img class="btn-img" src="./img/Dark-moon.svg" />
+                    <span>Dark</span> <span> Mode</span> 
+                </button>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="cards-container">
+            </div>
+        </div>
+
+        <img class="spinner" src="./img/loader.gif" alt="spinner" width="200" />
+        <script src="app.js"></script>
+    </body>
+</html>
